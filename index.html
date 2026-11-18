@@ -10,25 +10,25 @@
     <main>
       <h1>Vädret</h1>
 
-      <section aria-labelledby="favorites-heading">
+      <section>
         <h2 id="favorites-heading">Just nu</h2>
         <ul class="favorites" id="favorites"></ul>
       </section>
 
-      <section aria-labelledby="search-heading">
+      <section>
         <h2 id="search-heading">Sök en ort</h2>
         <form id="search-form">
           <label for="search">Ort</label>
           <input id="search" name="search" type="search" autocomplete="off" required />
           <button type="submit">Sök</button>
         </form>
-        <p class="status" id="search-status" role="status"></p>
+        <p class="status" id="search-status"></p>
         <ul class="cities" id="cities"></ul>
       </section>
 
-      <section aria-labelledby="weather-heading" id="weather-section" hidden>
+      <section id="weather-section" hidden>
         <h2 id="weather-heading">Väder</h2>
-        <p class="status" id="weather-status" role="status"></p>
+        <p class="status" id="weather-status"></p>
         <div id="weather"></div>
       </section>
     </main>
